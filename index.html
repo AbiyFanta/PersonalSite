@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Sharif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-left">
+            <a href="#home">Abiy Fanta</a>
+        </div>
+        <div class="hamburger-menu" onclick="toggleNav()">☰</div>
+        <div class="nav-right" id="nav-right">
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <div class="profile-pic-container">
+                <img src="images/image0.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="profile-description-box">
+                <div class="profile-description">
+                    <h1>Abiy Fanta</h1>
+                    <p class="subtitle">Computer Engineering at <span class="school">CSU Sacramento</span></p>
+                </div>
+                <div class="social-media-icons">
+                    <a href="https://www.linkedin.com/in/abiy-fanta/" target="_blank">
+                        <img src="src/linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/AbiyFanta" target="_blank">
+                        <img src="src/github.png" alt="GitHub" class="social-icon">
+                    </a>
+                </div>
+                <div class="resume-link">
+                    <a href="resume/Aaron_Sharif.pdf" target="_blank">
+                        <img src="src/resume.png" alt="Resume Icon" class="resume-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Software Engineering Fellow - Headstart AI</h3>
+                        <p class="timeline-date">July 2024 - Present</p>
+                    </div>
+                    <div class="timeline-body">
+                        <ul>
+                            <li>Current</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Undergraduate Teaching Assistant - UCSC</h3>
+                        <p class="timeline-date">January 2024 - June 2024</p>
+                    </div>
+                    <div class="timeline-body">
+                        <ul>
+                            <li>Tutored over 400 students across multiple courses in Logic Design, Python, Javascript, Matlab, Assembly, and conceptual understanding of course material. </li>
+                            <li>Gained experience in reading code written by others and debugging it to achieve desired behavior.</li>
+                            <li>Facilitated weekly office hours to assist students with projects, lab assignments, and theoretical concepts, resulting in a 15% average increase in assignment scores for attendeesSupported</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Tutor - Envision AfterSchool Tutoring</h3>
+                        <p class="timeline-date">Jan 2022 - Aug 2022</p>
+                    </div>
+                    <div class="timeline-body">
+                        <ul>
+                            <li>Tutored over 400 students across multiple courses in Logic Design, Discrete Math, Python, Javascript, C programming, Matlab, Assembly, and conceptual understanding of course material. </li>
+                            <li>Gained experience in reading code written by others and debugging it to achieve desired behavior.</li>
+                            <li>Facilitated weekly office hours to assist students with projects, lab assignments, and theoretical concepts, resulting in a 15% average increase in assignment scores for attendeesSupported</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!-- Add more experiences as needed -->
+        </ul>
+    </section>
+    
+    
+    
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/huffman.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Huffman compression</h3>
+                </div>
+            </a>
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/uniq.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Unix Command - Uniq</h3>
+                </div>
+            </a>
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/hex.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Hexadecimal Analysis</h3>
+                </div>
+            </a>
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/calculator.png" alt="Project 4">
+                <div class="project-info">
+                    <h3>GUI Calculator</h3>
+                </div>
+            </a>
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/cryptography.png" alt="Project 5">
+                <div class="project-info">
+                    <h3>Cryptography</h3>
+                </div>
+            </a>
+            <a href="https://github.com/Sharif262/Placeholder" class="project-card">
+                <img src="images/21puzzle.png" alt="Project 6">
+                <div class="project-info">
+                    <h3>21 Puzzle Game</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- Contact Section -->
+       <!-- Contact Section -->
+       <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:aaronsharif62@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+    <script src="script.js"></script>
+</body>
+</html>
