@@ -34,7 +34,7 @@ body {
   }
   
   .nav-left a:hover, .nav-right a:hover {
-    color: #007bff;
+    color: #55AD9B;
   }
   
   .hamburger-menu {
@@ -79,7 +79,7 @@ body {
     text-align: center;
     flex-direction: column;
     margin-top: -50px;
-    background: url('images/frontpage.jpg') no-repeat center center/cover;
+    background: url('src/background.jpg') no-repeat center center/cover;
     position: relative;
     height: 100vh;
   }
@@ -105,7 +105,7 @@ body {
   }
   
   .profile-description-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.921);
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -121,17 +121,17 @@ body {
     margin: 10px 0;
     font-size: 48px;
     font-weight: bold;
-    color: #007bff;
+    color: #55AD9B;
   }
   
   .profile-description .subtitle {
     font-size: 24px;
-    color: red;
+    color: #95D2B3;
   }
   
   .profile-description .school {
     font-size: 24px;
-    color: #007bff;
+    color: #55AD9B;
   }
   
   .social-media-icons {
@@ -141,14 +141,14 @@ body {
   }
   
   .social-media-icons a {
-    color: #007bff;
+    color: #95D2B3;
     margin: 0 10px;
     font-size: 24px;
     transition: color 0.3s;
   }
   
   .social-media-icons a:hover {
-    color: #0056b3;
+    color: #95D2B3;
   }
   
   .social-media-icons .social-icon {
@@ -200,7 +200,7 @@ body {
     position: absolute;
     content: " ";
     width: 2px;
-    background-color: #007bff;
+    background-color: #D8EFD3;
     left: 50%;
     margin-left: 0px;
   }
@@ -245,7 +245,7 @@ body {
     top: 20px;
     left: 50%;
     margin-left: -15px;
-    background-color: #007bff;
+    background-color: #D8EFD3;
     z-index: 100;
     display: table;
     border-radius: 50%;
@@ -265,7 +265,7 @@ body {
     margin-top: 0;
     font-size: 24px;
     font-weight: bold;
-    color: #007bff;
+    color: #55AD9B;
   }
   
   .timeline-date {
@@ -282,7 +282,7 @@ body {
   .timeline-body > ul > li {
     margin-bottom: 10px;
     font-size: 16px;
-    color: #333;
+    color: black;
     position: relative;
     padding-left: 0px;
   }
@@ -303,7 +303,7 @@ body {
   
   /* Projects Section */
   #projects {
-    background-color: #5293ef;
+    background-color: #D8EFD3;
     padding-top: 40px;
     min-height: 60vh;
   }
@@ -401,7 +401,7 @@ body {
   }
   
   #contact form input[type="submit"] {
-    background-color: #007bff;
+    background-color: #95D2B3;
     color: white;
     border: none;
     cursor: pointer;
@@ -409,7 +409,7 @@ body {
   }
   
   #contact form input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #55AD9B;
   }
   
   /* Media Queries */
