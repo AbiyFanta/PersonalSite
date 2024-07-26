@@ -186,6 +186,7 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
+    color: #55AD9B;
   }
   
   .timeline {
@@ -376,6 +377,7 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
+    color: #55AD9B;
   }
   
   #contact form {
@@ -393,15 +395,15 @@ body {
   }
   
   #contact form input, #contact form textarea {
-    width: 100%;
+    width: 97%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
   
   #contact form input[type="submit"] {
-    background-color: #95D2B3;
+    background-color: #55AD9B;
     color: #57504d;
     border: none;
     cursor: pointer;
@@ -409,7 +411,7 @@ body {
   }
   
   #contact form input[type="submit"]:hover {
-    background-color: #55AD9B;
+    background-color: #95D2B3;
   }
   
   /* Media Queries */
